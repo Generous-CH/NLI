@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.1000061035156
+    "width": 217.5
   },
   "right": {
     "id": "36e532aa9d0438c7",
@@ -169,13 +169,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "743d632f7f593271",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 340.29998779296875
+    "width": 409.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,8 +201,8 @@
   },
   "active": "408854a4b609711e",
   "lastOpenFiles": [
-    "FIrst Order Logic/Not all quantifiers are equal.md",
     "FIrst Order Logic/Identifying the limits of transformers when performing model-checking with natural language.md",
+    "FIrst Order Logic/Not all quantifiers are equal.md",
     "日记/2026-08-09.md",
     "未命名.base",
     "未命名.canvas",
