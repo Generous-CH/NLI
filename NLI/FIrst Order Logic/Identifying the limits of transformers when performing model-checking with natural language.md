@@ -17,4 +17,6 @@ natural language templates TL
 Vocabulary V 
 Maximum domain elements n
 Maximum predicates m
-随机选择词汇形成V ， 随机生成FOL公式 ，转换成自然语言 ， 随机指定True/False标签 ，不断随机生成结构 ， 使用model checker验证 ↓，找到满足标签的结构 ， 结构转换成自然语言 ， 保存数据
+随机选择词汇形成V ， 随机生成FOL公式 ，转换成自然语言 ， 随机指定True/False标签 ，不断随机生成结构 ， 使用model checker验证 ，找到满足标签的结构 ， 结构转换成自然语言 ， 保存数据
+==先随机lable,再找满足lable的structure .==这一步至关重要，解决数据偏置 的问题，防止模型猜答案
+
