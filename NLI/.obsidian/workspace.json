@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/每日总结.md",
+                "file": "medal logic/formula.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每日总结"
+              "title": "formula"
             }
           }
         ]
@@ -201,12 +201,11 @@
   },
   "active": "408854a4b609711e",
   "lastOpenFiles": [
-    "FIrst Order Logic/Identifying the limits of transformers when performing model-checking with natural language.md",
-    "日记/每日总结.md",
-    "日记/每日总结.md",
-    "日记/2026-08-.md",
     "FIrst Order Logic/Not all quantifiers are equal.md",
     "medal logic/formula.md",
+    "FIrst Order Logic/Identifying the limits of transformers when performing model-checking with natural language.md",
+    "日记/每日总结.md",
+    "日记/2026-08-.md",
     "medal logic",
     "未命名.base",
     "未命名.canvas",
