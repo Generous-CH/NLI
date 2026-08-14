@@ -1,4 +1,5 @@
 Most students must be scientists.
+
 $$
 Most_x(Student(x), \Box Scientist(x))
 $$
