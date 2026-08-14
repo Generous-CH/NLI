@@ -1,9 +1,10 @@
+Most students must be scientists.
 $$
-\forall x(artist(x) \rightarrow \exists y(engineer(y) \land remember(x,y)))
+Most_x(Student(x), \Box Scientist(x))
 $$
+当前世界的大多数学生，在所有可访问世界中都是科学家。
+
 $$
-\forall x(cy(x) \rightarrow \exists y((sch(y) \land cy(y)) \rightarrow \neg like(x,y)))
+\Box Most_x(Student(x),Scientist(x))
 $$
-$$
-\forall x(student(x) \rightarrow smart(x))
-$$
+在所有可访问世界中，大多数学生都是科学家。
