@@ -103,7 +103,7 @@ deontic logic：自然语言里大量存在应该，必须，也许，这些天�
 
 模型可能会：错误地把较弱 Modal Logic 中不成立的东西，当成在更强 S5 条件下成立的东西。因为语言模型可能从训练语料中学到：Modal logic = □ / ◇但它没有真正理解：R的 frame properties。也就是说它可能知道：□P大概是什么意思，但不知道：到底有哪些 world 可以访问？于是它偷偷假设：所有世界都差不多,或者：关系非常强,这就产生了 S5-like reasoning。这和你的研究非常有关系假设你的：Most students must be scientists.变成：Mostx(Student(x),□Scientist(x))那么 LLM 可能会犯：must = all worlds这种简单错误。但真正需要的是：∀v(wRv)也就是: **所有 accessible worlds**,不是：所有可能世界。这就是 ModalBench 所暴露出的核心问题。
 
-一些模型在 Natural Language track 上表现比 Formal track 更好。符号/自然语言推理，不是一种能力
+一些模型在 Natural Language track 上表现比 Formal track 更好。符号/自然语言推理，不是一种能力。
 
 核心 pipeline：
 
