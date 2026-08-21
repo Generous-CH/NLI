@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "medal logic/formula.md",
+                "file": "medal logic/MODALBENCH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "formula"
+              "title": "MODALBENCH"
             }
           }
         ]
@@ -201,9 +201,10 @@
   },
   "active": "408854a4b609711e",
   "lastOpenFiles": [
+    "medal logic/formula.md",
+    "medal logic/MODALBENCH.md",
     "FIrst Order Logic/Identifying the limits of transformers when performing model-checking with natural language.md",
     "FIrst Order Logic/Not all quantifiers are equal.md",
-    "medal logic/formula.md",
     "日记/每日总结.md",
     "日记/2026-08-.md",
     "medal logic",
