@@ -8,7 +8,7 @@ $$
 $$
 \Box Most_x(Student(x),Scientist(x))
 $$
-在所有可达的世界中可访问世界中，大多数学生都是科学家。
+在所有可达的世界中，大多数学生都是科学家。
 
 At most 2 students must be scientists
 no more than 2 students must be scientists
