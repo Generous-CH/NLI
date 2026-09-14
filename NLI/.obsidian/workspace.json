@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "medal logic/MODALBENCH.md",
+                "file": "work/GQModality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MODALBENCH"
+              "title": "GQModality"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "right": {
     "id": "36e532aa9d0438c7",
@@ -201,10 +202,11 @@
   },
   "active": "408854a4b609711e",
   "lastOpenFiles": [
+    "medal logic/MODALBENCH.md",
+    "work/GQModality.md",
     "medal logic/formula.md",
     "FIrst Order Logic/Identifying the limits of transformers when performing model-checking with natural language.md",
     "FIrst Order Logic/Not all quantifiers are equal.md",
-    "medal logic/MODALBENCH.md",
     "work/目前工作.md",
     "日记/每日总结.md",
     "work",
