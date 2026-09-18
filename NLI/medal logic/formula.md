@@ -14,3 +14,7 @@ domain的范围不一样
 At most 2 students must be scientists
 no more than 2 students must be scientists
 there are at most 2 students who must be scientists
+
+$$
+h_t=RNN(x_t,h_{t-1})
+$$
