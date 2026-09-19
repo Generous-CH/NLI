@@ -41,10 +41,27 @@ FO²-MC 数据集，每个样本包含：有限的自然语言描述+带判断�
 删除空谓词和平凡句子后，原本平衡的数据可能再次失衡,因此re-balancing,重新采样或补充数据
 
 
+alogrithm1
+随机选择一个小词表；随机生成一个逻辑公式；先随机决定标签True/Flase,然后随机生成结构，用符号模型检查器验证，直至满足标签，之后将结构转为自然语言，变为（M，S，L）的结构
+
+
 五种语言片段
 1.Syllogistic:简单三段论
 Every musician is an artist.主要是一元谓词和一个量词。
 2.Re-Syl:关系三段论
 All teachers remember some engineer.加入二元关系 `remember(x,y)`，可以包含两个量词。
+3.Rel：不含及物动词的关系从句
+All economists who are not happy are cynics.语法结构更复杂，但仍以一元谓词为主。
+4.Rel-TV：含及物动词的关系从句
+No cynic likes any scholar who is an expert.同时包含关系从句、二元关系和双量词。
+5.Anaphora：照应
+Some judge warns no juror who hates him.
 
 
+
+
+## 得到的结果
+
+1.在数据分布和结构规模与训练集相似时，Transformer 能以较高准确率完成自然语言模型检查。
+2.二元关系和双量词是主要困难；布尔连接词也会增加难度，但是影响不如前面那两个
+3.关键是量词数量，而非l
